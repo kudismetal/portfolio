@@ -1,0 +1,93 @@
+/* Responsiveness */
+
+/* Box Sizing rules for all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Font */
+html {
+  font-family: "Calibri", sans-serif;
+  color: #595959;
+}
+
+body {
+  padding: 5%;
+}
+
+/* Row after ? (mandatory) */
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* Floating for all col- class */
+[class*="col-"] {
+  float: left;
+  padding: 1%;
+  /* border: 1px red solid; */
+}
+
+/* Set for mobile phones */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/* Sizing convention */
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+/* Custom specific fonts */
+.rockwell-font h1, h2, h3, h4 {
+  font-family: "Rockwell", sans-serif;
+  color: black;
+}
+
+/* Biodata styling */
+.biodata ul {
+  list-style-type: none;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.biodata li {
+  text-align: right;
+}
+
+.profile-pic {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Experience styling */
+.exp ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.exp-headings {
+  color: #007FAB;
+}
+
+.exp-desc {
+  color: #595959;
+}
+
+.exp-level ul {
+  list-style: none;
+}
