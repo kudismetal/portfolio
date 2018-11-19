@@ -1,12 +1,10 @@
 /* Font */
 html {
-  font-family: "Calibri", sans-serif;
   color: #595959;
 }
 
 /* Custom specific fonts */
 .rockwell-font h1, h2, h3, h4 {
-  font-family: "Rockwell", sans-serif;
   color: black;
 }
 
