@@ -1,3 +1,3 @@
 # web-cv
 
-Yudhistira CV
+Yudhistira Curriculum Vitae
