@@ -1,0 +1,130 @@
+* {
+  /* border: 1px solid red; */
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 40px auto;
+  max-width: 768px;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #8f4f06;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.navbar a:last-child {
+  padding-right: 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+.profile {
+  margin-top: 10%;
+}
+
+.profile-photo img {
+  width: 250px;
+  height: 250px;
+  border: 3px solid rgba(143, 79, 6, .8);
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.biodata {
+  width: 90%;
+}
+
+.biodata > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.biodata > div:first-child {
+  margin-top: 10%;
+}
+
+.circle-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #73c0f4;
+  font-size: 72px;
+  padding: 10px;
+  width: 20%;
+}
+
+.biodata-desc {
+  width: 80%;
+}
+
+.stack-tech {
+  justify-content: center;
+}
+
+.circle-link-small {
+  font-size: 16px;
+  width: 10%;
+  color: #728ca3;
+  padding-left: 10px;
+}
+
+.summary {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.summary a {
+  text-decoration: none;
+  color: black;
+}
+
+.send-email {
+  padding: 2.5px 10px;
+  background-color: #f3e4c6;
+  display: flex;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links a {
+  height: 100%;
+  text-decoration: none;
+}
+
+.circle-link-footer {
+  background-color: #8f4f06;
+  color: #e6eff3;
+  height: 100%;
+  width: auto;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+}
