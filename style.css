@@ -117,6 +117,10 @@ body {
   width: 80%;
 }
 
+.biodata-desc p:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 767.98px) {
   .biodata-desc {
     text-align: center;
@@ -125,7 +129,7 @@ body {
 
 .separator {
   border-top: 10px dotted #8f4f06;
-  width: 200px;
+  width: 100px;
   margin: 0 auto;
 }
 
