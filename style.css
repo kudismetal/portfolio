@@ -31,27 +31,26 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
 .navbar a {
   color: #8f4f06;
   text-decoration: none;
-  padding-left: 10px;
+  padding: 0 10px;
 }
 
 .navbar div:first-child {
   color: #8f4f06;
 }
 
-.navbar a:last-child {
-  padding-right: 10px;
-}
-
 .navbar a:hover {
   text-decoration: underline;
+}
+
+.nav-links {
+  padding-bottom: 20px;
 }
 
 .profile-photo {
@@ -200,4 +199,26 @@ footer > p {
   padding: 10px;
   margin: 10px;
   font-size: 25px;
+}
+
+.portfolio-container {
+  text-align: center;
+  background-color: #8f4f06;
+}
+
+.portfolio-wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 10% 0;
+}
+
+.portfolio-wrapper img {
+  width: 80%;
+  border: 30px solid white;
+  border-radius: 4px;
+}
+
+.portfolio-wrapper p {
+  width: 80%;
+  margin: 1em auto;
 }
