@@ -143,7 +143,7 @@ body {
 }
 
 strong {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .circle-link-small {
@@ -229,6 +229,12 @@ footer > p {
   border: 20px solid #e6eff3;
   border-radius: 10px;
   box-shadow: 3px 3px 3px 0px lightslategrey;
+}
+
+@media screen and (max-width: 767.98px) {
+  .portfolio-wrapper img {
+    border: 10px solid #e6eff3;
+  }
 }
 
 .portfolio-wrapper p {
