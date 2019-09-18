@@ -1,24 +1,49 @@
-* {
-  /* border: 1px solid red; */
-}
+/* * {
+  border: 1px solid red;
+} */
 
 body {
   font-family: 'Noto Sans', sans-serif;
-  margin: 40px auto;
-  max-width: 768px;
+  color: #728ca3;
+  margin: 0 auto;
   background-color: white;
+}
+
+.header-container {
+  background-color: #f3e4c6;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 768px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .header {
+    width: 100%;
+  }
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .navbar a {
   color: #8f4f06;
   text-decoration: none;
   padding-left: 10px;
+}
+
+.navbar div:first-child {
+  color: #8f4f06;
 }
 
 .navbar a:last-child {
@@ -29,15 +54,11 @@ body {
   text-decoration: underline;
 }
 
-.profile {
+.profile-photo {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-} 
-
-.profile {
-  margin-top: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .profile-photo img {
@@ -47,6 +68,15 @@ body {
   border-radius: 100%;
   padding: 5px;
 }
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 768px;
+  margin: 0 auto;
+} 
 
 .biodata {
   width: 90%;
@@ -62,6 +92,12 @@ body {
   margin-top: 10%;
 }
 
+@media screen and (max-width: 767.98px) {
+  .biodata > div {
+    flex-direction: column;
+  }
+}
+
 .circle-link {
   display: flex;
   align-items: center;
@@ -72,24 +108,47 @@ body {
   width: 20%;
 }
 
+.circle-link-nav {
+  width: auto;
+  padding: 0 20px;
+}
+
 .biodata-desc {
   width: 80%;
+}
+
+@media screen and (max-width: 767.98px) {
+  .biodata-desc {
+    text-align: center;
+  }
+}
+
+.separator {
+  border-top: 10px dotted #8f4f06;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .stack-tech {
   justify-content: center;
 }
 
+@media screen and (max-width: 767.98px) {
+  .stack-tech {
+    text-align: center;
+  }
+}
+
 .circle-link-small {
   font-size: 16px;
   width: 10%;
-  color: #728ca3;
+  color: #8f4f06;
   padding-left: 10px;
 }
 
 .summary {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 10% auto;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -98,7 +157,7 @@ body {
 
 .summary a {
   text-decoration: none;
-  color: black;
+  color: #8f4f06;
 }
 
 .send-email {
@@ -106,6 +165,16 @@ body {
   background-color: #f3e4c6;
   display: flex;
   align-items: center;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #f3e4c6;
+}
+
+footer > p {
+  text-align: center;
+  color: #8f4f06;
 }
 
 .footer-links {
