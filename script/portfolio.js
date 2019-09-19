@@ -1,32 +1,32 @@
 // Portfolio data
 const portfolioData = [
   {
-    backgroundColor: '#18579a',
-    imgSrc: 'img/portfolio/sud.jpeg',
-    title: 'Sentralisasi Underlying Documents',
-    pos: 'Back-end Web Developer / Springboot',
-    desc: 'Pengerjaan project untuk entri dan pengolahan data underlying documents Bank BCA.'
+    backgroundColor: '#273879',
+    imgSrc: 'img/portfolio/modalrakyat.svg',
+    title: 'Modal Rakyat',
+    pos: 'Front-end Web Developer / React.js, Vue.js',
+    desc: 'Layanan Peer-to-Peer Lending atau marketplace yang mempertemukan Pendana dengan Peminjam (UMKM).'
   },
   {
-    backgroundColor: '#263239',
-    imgSrc: 'img/portfolio/simgaji.png',
-    title: 'SimGaji',
-    pos: 'Front-end Web Developer / Angular',
-    desc: 'Pengerjaan project untuk entri, mencetak, dan pembukuan data gaji pegawai PT. Taspen Persero.'
+    backgroundColor: '#ff6e1d',
+    imgSrc: 'img/portfolio/tujuhsembilan.png',
+    title: 'Tujuh Sembilan',
+    pos: 'Front-end & Back-end Web Developer / Angular, Springboot',
+    desc: 'Perusahaan IT Consultant yang menyediakan talent sebagai layanan IT untuk customer.'
   },
   {
     backgroundColor: '#4caf50',
     imgSrc: 'img/portfolio/ssms.png',
     title: 'NPIC Student Score Management System',
     pos: 'Fullstack Desktop Developer / JavaFX',
-    desc: 'Pengerjaan project untuk entri, mencetak, dan pembukuan data nilai mahasiswa di National Polytechnic Institute of Cambodia, Phnom Penh.'
+    desc: 'Pengerjaan project tugas akhir untuk entri, mencetak, dan pembukuan data nilai mahasiswa dengan studi kasus di National Polytechnic Institute of Cambodia, Phnom Penh.'
   },
   {
     backgroundColor: '#4fa2c2',
     imgSrc: 'img/portfolio/polciki.png',
     title: 'Sis. POLSEK CIBEUNYING KIDUL',
-    pos: 'Fullstack Web Developer / PHP',
-    desc: 'Pengerjaan project untuk membuat, mencetak dan menyimpan data STPL di Polsek Cibeunying Kidul, Bandung.'
+    pos: 'Front-end & Back-end Web Developer / PHP',
+    desc: 'Pengerjaan project kerja praktek untuk membuat, mencetak dan menyimpan data STPL dengan studi kasus di Polsek Cibeunying Kidul, Bandung.'
   }
 ];
 
