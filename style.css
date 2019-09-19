@@ -233,7 +233,7 @@ footer > p {
 
 @media screen and (max-width: 767.98px) {
   .portfolio-wrapper img {
-    border: 10px solid #e6eff3;
+    border: 5px solid #e6eff3;
   }
 }
 
