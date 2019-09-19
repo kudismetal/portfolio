@@ -35,6 +35,7 @@ function createPortfolioContainer(backgroundColor) {
   const portfolioContainer = document.createElement('div');
 
   portfolioContainer.classList.add('portfolio-container');
+  portfolioContainer.classList.add('fade-in');
   portfolioContainer.style.backgroundColor = backgroundColor;
 
   return portfolioContainer;
@@ -56,6 +57,7 @@ function createPortfolioImage(imgSrc) {
 
   portfolioImage.setAttribute('src', imgSrc);
   portfolioImage.setAttribute('alt', '');
+  portfolioImage.classList.add('fade-in');
 
   portfolioImageContainer.appendChild(portfolioImage);
   return portfolioImageContainer;
