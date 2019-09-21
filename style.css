@@ -103,6 +103,7 @@ body {
   border: 3px solid rgba(143, 79, 6, .8);
   border-radius: 100%;
   padding: 5px;
+  -webkit-user-drag: none;
 }
 
 .profile {
@@ -268,14 +269,17 @@ footer > p {
 .portfolio-wrapper img {
   width: 80%;
   border: 20px solid #e6eff3;
+  border-radius: 10px;
   background-color: #e6eff3;
   box-shadow: 3px 3px 3px 0px lightslategrey;
+  padding: 10px
 }
 
 @media screen and (max-width: 767.98px) {
   .portfolio-wrapper img {
     border: 5px solid #e6eff3;
-    /* border-radius: 2.5px; */
+    border-radius: 5px;
+    padding: 5px;
   }
 }
 
