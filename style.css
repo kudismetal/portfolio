@@ -76,6 +76,7 @@ body {
   border-radius: 100%;
   padding: 5px;
   -webkit-user-drag: none;
+  object-fit: cover;
 }
 
 .profile {
@@ -149,6 +150,10 @@ body {
 @media screen and (max-width: 767.98px) {
   .stack-tech {
     text-align: center;
+  }
+
+  .stack-section {
+    flex-direction: column-reverse !important; 
   }
 }
 
