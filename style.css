@@ -7,6 +7,16 @@ body {
   color: #728ca3;
   margin: 0 auto;
   background-color: white;
+  max-width: 1024px;
+}
+
+@media screen and (min-width: 1024.98px) {
+  body {
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.25);
+    margin: 20px auto;
+  }
 }
 
 .fade-in {
@@ -19,7 +29,6 @@ body {
 }
 
 .header-container {
-  background-color: #f3e4c6;
   display: flex;
   justify-content: center;
 }
@@ -38,6 +47,10 @@ body {
   }
 }
 
+.header-portfolio {
+  background-color: #273879;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -48,6 +61,10 @@ body {
   color: #8f4f06;
   text-decoration: none;
   padding: 10px;
+}
+
+.navbar-portfolio a {
+  color: white;
 }
 
 .navbar div:first-child {
@@ -62,11 +79,15 @@ body {
   border-bottom: 2px solid #8f4f06;
 }
 
+.nav-active-portfolio {
+  border-bottom: 2px solid white;
+}
+
 .profile-photo {
   display: flex;
   justify-content: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .profile-photo img {
@@ -95,11 +116,11 @@ body {
 .biodata > div {
   display: flex;
   align-items: center;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .biodata > div:first-child {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -127,9 +148,9 @@ body {
   width: 80%;
 }
 
-.biodata-desc p:last-child {
+/* .biodata-desc p:last-child {
   margin-bottom: 0;
-}
+} */
 
 @media screen and (max-width: 767.98px) {
   .biodata-desc {
@@ -190,9 +211,8 @@ strong {
 }
 
 footer {
-  margin-top: 10%;
+  margin-top: 5%;
   padding: 20px 0;
-  background-color: #f3e4c6;
 }
 
 footer > p {
@@ -222,7 +242,7 @@ footer > p {
 }
 
 .portfolio-section {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .portfolio-container {
@@ -232,7 +252,7 @@ footer > p {
 .portfolio-wrapper {
   max-width: 768px;
   margin: 0 auto;
-  padding: 10% 0;
+  padding: 5% 0;
   color: white;
 }
 
@@ -263,4 +283,8 @@ footer > p {
 .portfolio-wrapper p {
   width: 80%;
   margin: 1em auto;
+}
+
+.portfolio-wrapper p:last-child {
+  margin-bottom: 0;
 }

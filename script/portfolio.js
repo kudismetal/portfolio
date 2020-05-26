@@ -3,28 +3,28 @@ const portfolioData = [
   {
     backgroundColor: '#273879',
     imgSrc: 'img/portfolio/modalrakyat.svg',
-    title: 'Modal Rakyat',
+    title: 'Modal Rakyat (2019 - Sekarang)',
     pos: 'Front-end Web Developer / React.js, Vue.js',
     desc: 'Layanan Peer-to-Peer Lending atau marketplace yang mempertemukan Pendana dengan Peminjam (UMKM).'
   },
   {
     backgroundColor: '#ff6e1d',
     imgSrc: 'img/portfolio/tujuhsembilan.png',
-    title: 'Tujuh Sembilan',
+    title: 'Tujuh Sembilan (2018 - 2019)',
     pos: 'Front-end & Back-end Web Developer / Angular, Springboot',
     desc: 'Perusahaan IT Consultant yang menyediakan talent sebagai layanan IT untuk customer.'
   },
   {
     backgroundColor: '#4caf50',
     imgSrc: 'img/portfolio/ssms.png',
-    title: 'NPIC Student Score Management System',
+    title: 'NPIC Student Score Management System (2017)',
     pos: 'Fullstack Desktop Developer / JavaFX',
     desc: 'Pengerjaan project tugas akhir untuk entri, mencetak, dan pembukuan data nilai mahasiswa dengan studi kasus di National Polytechnic Institute of Cambodia, Phnom Penh.'
   },
   {
     backgroundColor: '#4fa2c2',
     imgSrc: 'img/portfolio/polciki.png',
-    title: 'Sis. POLSEK CIBEUNYING KIDUL',
+    title: 'Sis. POLSEK CIBEUNYING KIDUL (2016)',
     pos: 'Front-end & Back-end Web Developer / PHP',
     desc: 'Pengerjaan project kerja praktek untuk membuat, mencetak dan menyimpan data STPL dengan studi kasus di Polsek Cibeunying Kidul, Bandung.'
   }
