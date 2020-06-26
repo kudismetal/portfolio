@@ -7,7 +7,7 @@ body {
   color: #728ca3;
   margin: 0 auto;
   background-color: white;
-  max-width: 1024px;
+  max-width: 768px;
 }
 
 @media screen and (min-width: 1024.98px) {
@@ -15,7 +15,7 @@ body {
     -webkit-box-shadow: 0px 0px 5px 2px rgba(143, 79, 6, 0.25);
     -moz-box-shadow: 0px 0px 5px 2px rgba(143, 79, 6, 0.25);
     box-shadow: 0px 0px 5px 2px rgba(143, 79, 6, 0.25);
-    margin: 20px auto;
+    margin: 0 auto;
   }
 }
 
@@ -264,12 +264,18 @@ footer > p {
 }
 
 .portfolio-wrapper img {
-  width: 80%;
+  width: 60%;
   border: 20px solid #e6eff3;
   border-radius: 10px;
   background-color: #e6eff3;
   box-shadow: 3px 3px 3px 0px lightslategrey;
   padding: 10px
+}
+
+@media screen and (max-width: 575.98px) {
+  .portfolio-wrapper img {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
