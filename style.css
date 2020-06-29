@@ -1,13 +1,8 @@
-/* * {
-  border: 1px solid red;
-} */
-
 body {
   font-family: 'Noto Sans', sans-serif;
   color: #728ca3;
   margin: 0 auto;
   background-color: white;
-  max-width: 768px;
 }
 
 @media screen and (min-width: 1024.98px) {
@@ -148,10 +143,6 @@ body {
   width: 80%;
 }
 
-/* .biodata-desc p:last-child {
-  margin-bottom: 0;
-} */
-
 @media screen and (max-width: 767.98px) {
   .biodata-desc {
     text-align: center;
@@ -252,8 +243,14 @@ footer > p {
 .portfolio-wrapper {
   max-width: 768px;
   margin: 0 auto;
-  padding: 5% 0;
+  padding: 10% 0;
   color: white;
+}
+
+@media screen and (min-width: 767.98px) {
+  .portfolio-wrapper {
+    padding: 5% 0;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
