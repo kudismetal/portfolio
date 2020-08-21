@@ -1,14 +1,14 @@
 // Portfolio data
 const portfolioData = [
   {
-    backgroundColor: '#273879',
+    backgroundColor: '#ffac23',
     imgSrc: 'img/portfolio/modalrakyat.svg',
     title: 'Modal Rakyat (2019 - Sekarang)',
     pos: 'Front-end Web Developer / React.js, Vue.js',
     desc: 'Layanan Peer-to-Peer Lending atau marketplace yang mempertemukan Pendana dengan Peminjam (UMKM).'
   },
   {
-    backgroundColor: '#ff6e1d',
+    backgroundColor: '#ffd83a',
     imgSrc: 'img/portfolio/tujuhsembilan.png',
     title: 'Tujuh Sembilan (2018 - 2019)',
     pos: 'Front-end & Back-end Web Developer / Angular, Springboot',
@@ -65,7 +65,7 @@ function createPortfolioImage(imgSrc) {
 
 // Create portfolio title
 function createPortfolioTitle(title) {
-  const portfolioTitle = document.createElement('h2');
+  const portfolioTitle = document.createElement('h3');
   const portfolioTitleText = document.createElement('strong');
 
   portfolioTitleText.innerHTML = title;
