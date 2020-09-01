@@ -1,5 +1,5 @@
-# web-cv
+# portfolio
 
-Yudhistira Curriculum Vitae
+Yudhistira Portfolio
 
-You can click [here](https://kudismetal.github.io/web-cv/ "Yudhistira Putra Nugraha") to view.
+You can click [here](https://kudismetal.github.io/portfolio/ "Yudhistira Putra Nugraha") to view.
