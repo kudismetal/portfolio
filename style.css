@@ -29,6 +29,13 @@ body {
   width: 768px;
 }
 
+@media screen and (max-width: 575.98px) {
+  .header {
+    padding-top: 0;
+    padding-left: 5%;
+  }
+}
+
 .header-portfolio {
   margin-bottom: 3%;
 }
@@ -45,10 +52,23 @@ body {
   width: 100%;
 }
 
+@media screen and (max-width: 575.98px) {
+  .navbar {
+    max-width: 100%;
+    justify-content: center;
+  }
+}
+
 .navbar a {
   color: #8f4f06;
   text-decoration: none;
   padding: 10px;
+}
+
+@media screen and (max-width: 575.98px) {
+  .navbar a {
+    width: calc(90% / 3);
+  }
 }
 
 .navbar div:first-child {
@@ -57,6 +77,15 @@ body {
 
 .nav-links {
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 575.98px) {
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .nav-active {
@@ -142,6 +171,15 @@ body {
 
 .stack-tech {
   justify-content: center;
+}
+
+.stack-tech a {
+  color: #728ca3;
+  text-decoration: none;
+}
+
+.stack-tech a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 767.98px) {

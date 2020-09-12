@@ -1,36 +1,22 @@
-// Portfolio data
-const portfolioData = [
+// Jobs data
+const jobsData = [
   {
-    backgroundColor: '#d3dc25',
-    imgSrc: 'img/portfolio/ap2ln.png',
-    title: 'AP2LN (2020)',
-    pos: 'Web Developer / Wordpress',
-    desc: 'Pengerjaan project company profile untuk Asosiasi Penyelenggara Pemagangan Luar Negeri, yang berlokasi di Jakarta, Indonesia.'
+    backgroundColor: '#ffac23',
+    imgSrc: 'img/jobs/modalrakyat.svg',
+    title: 'Modal Rakyat (2019 - Sekarang)',
+    pos: 'Front-end Web Developer / React.js, Vue.js',
+    desc: 'Layanan Peer-to-Peer Lending atau marketplace yang mempertemukan Pendana dengan Peminjam (UMKM).'
   },
   {
-    backgroundColor: '#f8b868',
-    imgSrc: 'img/portfolio/asta-karya.png',
-    title: 'LPK Asta Karya (2020)',
-    pos: 'Web Developer / Wordpress',
-    desc: 'Pengerjaan project company profile untuk LPK Asta Karya, yang berlokasi di Jakarta, Indonesia.'
-  },
-  {
-    backgroundColor: '#4caf50',
-    imgSrc: 'img/portfolio/ssms.png',
-    title: 'NPIC Student Score Management System (2017)',
-    pos: 'Fullstack Desktop Developer / JavaFX',
-    desc: 'Pengerjaan project tugas akhir untuk entri, mencetak, dan pembukuan data nilai mahasiswa dengan studi kasus di National Polytechnic Institute of Cambodia, Phnom Penh.'
-  },
-  {
-    backgroundColor: '#4fa2c2',
-    imgSrc: 'img/portfolio/polciki.png',
-    title: 'Sis. POLSEK CIBEUNYING KIDUL (2016)',
-    pos: 'Front-end & Back-end Web Developer / PHP',
-    desc: 'Pengerjaan project kerja praktek untuk membuat, mencetak dan menyimpan data STPL dengan studi kasus di Polsek Cibeunying Kidul, Bandung.'
+    backgroundColor: '#ffd83a',
+    imgSrc: 'img/jobs/tujuhsembilan.png',
+    title: 'Tujuh Sembilan (2018 - 2019)',
+    pos: 'Front-end & Back-end Web Developer / Angular, Springboot',
+    desc: 'Perusahaan IT Consultant yang menyediakan talent sebagai layanan IT untuk customer.'
   }
 ];
 
-// Create portfolio container
+// Create jobs container
 function createPortfolioContainer(backgroundColor) {
   const portfolioContainer = document.createElement('div');
 
@@ -101,12 +87,12 @@ function createPortfolio(backgroundColor, title, imgSrc, pos, desc) {
   return portfolioContainer;
 }
 
-// Get portfolio section element
-const portfolioSection = document.getElementsByClassName('portfolio-section')[0];
+// Get job section element
+const jobsSection = document.getElementsByClassName('jobs-section')[0];
 
 // Write portfolio
-portfolioData.forEach(element => {
-  portfolioSection.appendChild(
+jobsData.forEach(element => {
+  jobsSection.appendChild(
     createPortfolio(
       element.backgroundColor, 
       element.title, 
