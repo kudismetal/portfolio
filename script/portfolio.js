@@ -12,7 +12,7 @@ const portfolioData = [
     imgSrc: 'img/portfolio/asta-karya.png',
     title: 'LPK Asta Karya (2020)',
     pos: 'Web Developer / Wordpress',
-    desc: 'Pengerjaan project company profile untuk LPK Asta Karya, yang berlokasi di Jakarta, Indonesia.'
+    desc: 'Pengerjaan project company profile untuk Lembaga Pelatihan Kerja Asta Karya, yang berlokasi di Jakarta, Indonesia.'
   },
   {
     backgroundColor: '#4caf50',
