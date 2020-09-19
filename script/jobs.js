@@ -22,7 +22,6 @@ function createPortfolioContainer(backgroundColor) {
 
   portfolioContainer.classList.add('portfolio-container');
   portfolioContainer.classList.add('fade-in');
-  portfolioContainer.style.backgroundColor = backgroundColor;
 
   return portfolioContainer;
 }
@@ -37,8 +36,11 @@ function createPortfolioWrapper() {
 }
 
 // Create portfolio image
-function createPortfolioImage(imgSrc) {
+function createPortfolioImage(imgSrc, backgroundColor) {
   const portfolioImageContainer = document.createElement('div');
+  portfolioImageContainer.style.backgroundColor = backgroundColor;
+  portfolioImageContainer.classList.add('portfolio-image');
+
   const portfolioImage = document.createElement('img');
 
   portfolioImage.setAttribute('src', imgSrc);
@@ -47,6 +49,14 @@ function createPortfolioImage(imgSrc) {
 
   portfolioImageContainer.appendChild(portfolioImage);
   return portfolioImageContainer;
+}
+
+function createPortfolioContent() {
+  const portfolioContent =  document.createElement('div');
+
+  portfolioContent.classList.add('portfolio-content');
+
+  return portfolioContent;
 }
 
 // Create portfolio title
@@ -73,15 +83,18 @@ function createPortfolioDesc(desc) {
 function createPortfolio(backgroundColor, title, imgSrc, pos, desc) {
   const portfolioContainer = createPortfolioContainer(backgroundColor);
   const portfolioWrapper = createPortfolioWrapper();
-  const portfolioImage = createPortfolioImage(imgSrc);
+  const portfolioContent = createPortfolioContent();
+  const portfolioImage = createPortfolioImage(imgSrc, backgroundColor);
   const portfolioTitle = createPortfolioTitle(title);
   const portfolioPosition = createPortfolioDesc(pos);
   const portfolioDesc = createPortfolioDesc(desc);
-
+  
+  portfolioContent.appendChild(portfolioTitle);
+  portfolioContent.appendChild(portfolioPosition);
+  portfolioContent.appendChild(portfolioDesc);
+  
   portfolioWrapper.appendChild(portfolioImage);
-  portfolioWrapper.appendChild(portfolioTitle);
-  portfolioWrapper.appendChild(portfolioPosition);
-  portfolioWrapper.appendChild(portfolioDesc);
+  portfolioWrapper.appendChild(portfolioContent);
   portfolioContainer.appendChild(portfolioWrapper);
 
   return portfolioContainer;
