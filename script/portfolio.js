@@ -25,7 +25,7 @@ const portfolioData = [
     pos: 'Fullstack Desktop Developer / JavaFX',
     desc: 'Pengerjaan project tugas akhir untuk entri, mencetak, dan pembukuan data nilai mahasiswa dengan studi kasus di National Polytechnic Institute of Cambodia, Phnom Penh.',
     url: 'https://drive.google.com/file/d/1iAGDs4RZojV0N5AhnSU4JYq76YIH8zaI/view?usp=sharing',
-    linkText: 'LIHAT PRESENTASI'
+    linkText: 'LIHAT SNAPSHOT'
   },
   {
     backgroundColor: '#4fa2c2',
@@ -34,7 +34,7 @@ const portfolioData = [
     pos: 'Front-end & Back-end Web Developer / PHP',
     desc: 'Pengerjaan project kerja praktek untuk membuat, mencetak dan menyimpan data STPL dengan studi kasus di Polsek Cibeunying Kidul, Bandung.',
     url: 'https://drive.google.com/file/d/1ZiqO5PiYQXoKyRDld6gTuHyzsSnGua0R/view?usp=sharing',
-    linkText: 'LIHAT SNAPSHOT'
+    linkText: 'LIHAT PRESENTASI'
   }
 ];
 
