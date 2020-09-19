@@ -92,8 +92,7 @@ body {
 .profile-photo {
   display: flex;
   justify-content: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 10%;
 }
 
 .profile-photo img {
@@ -117,6 +116,16 @@ body {
 
 .biodata {
   width: 90%;
+}
+
+@media screen and (max-width: 575.98px) {
+  .biodata {
+    font-size: 14px;
+  }
+
+  .biodata strong {
+    font-size: 20px;
+  }
 }
 
 .biodata > div {
