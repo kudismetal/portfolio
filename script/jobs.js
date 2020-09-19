@@ -5,14 +5,18 @@ const jobsData = [
     imgSrc: 'img/jobs/modalrakyat.svg',
     title: 'Modal Rakyat (2019 - Sekarang)',
     pos: 'Front-end Web Developer / React.js, Vue.js',
-    desc: 'Layanan Peer-to-Peer Lending atau marketplace yang mempertemukan Pendana dengan Peminjam (UMKM).'
+    desc: 'Layanan Peer-to-Peer Lending atau marketplace yang mempertemukan Pendana dengan Peminjam (UMKM).',
+    url: 'https://www.modalrakyat.id',
+    linkText: 'KUNJUNGI WEBSITE'
   },
   {
     backgroundColor: '#ffd83a',
     imgSrc: 'img/jobs/tujuhsembilan.png',
     title: 'Tujuh Sembilan (2018 - 2019)',
     pos: 'Front-end & Back-end Web Developer / Angular, Springboot',
-    desc: 'Perusahaan IT Consultant yang menyediakan talent sebagai layanan IT untuk customer.'
+    desc: 'Perusahaan IT Consultant yang menyediakan talent sebagai layanan IT untuk customer.',
+    url: 'https://www.tujuhsembilan.com',
+    linkText: 'KUNJUNGI WEBSITE'
   }
 ];
 
@@ -79,8 +83,21 @@ function createPortfolioDesc(desc) {
   return portfolioPosition;
 }
 
+// Create portfolio link
+function createPortfolioLink(url, linkText, backgroundColor) {
+  const portfolioLink = document.createElement('a');
+
+  portfolioLink.href = url;
+  portfolioLink.target = '_blank';
+  portfolioLink.innerHTML = linkText;
+  portfolioLink.style.backgroundColor = backgroundColor;
+  portfolioLink.classList.add('portfolio-link');
+
+  return portfolioLink;
+}
+
 // Create portfolio
-function createPortfolio(backgroundColor, title, imgSrc, pos, desc) {
+function createPortfolio(backgroundColor, title, imgSrc, pos, desc, url, linkText) {
   const portfolioContainer = createPortfolioContainer(backgroundColor);
   const portfolioWrapper = createPortfolioWrapper();
   const portfolioContent = createPortfolioContent();
@@ -88,10 +105,12 @@ function createPortfolio(backgroundColor, title, imgSrc, pos, desc) {
   const portfolioTitle = createPortfolioTitle(title);
   const portfolioPosition = createPortfolioDesc(pos);
   const portfolioDesc = createPortfolioDesc(desc);
+  const portfolioLink = createPortfolioLink(url, linkText, backgroundColor);
   
   portfolioContent.appendChild(portfolioTitle);
   portfolioContent.appendChild(portfolioPosition);
   portfolioContent.appendChild(portfolioDesc);
+  portfolioContent.appendChild(portfolioLink);
   
   portfolioWrapper.appendChild(portfolioImage);
   portfolioWrapper.appendChild(portfolioContent);
@@ -111,7 +130,9 @@ jobsData.forEach(element => {
       element.title, 
       element.imgSrc,
       element.pos,
-      element.desc
+      element.desc,
+      element.url,
+      element.linkText
     )
   );
 });

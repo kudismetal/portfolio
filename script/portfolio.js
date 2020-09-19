@@ -5,28 +5,36 @@ const portfolioData = [
     imgSrc: 'img/portfolio/ap2ln.png',
     title: 'AP2LN (2020)',
     pos: 'Web Developer / Wordpress',
-    desc: 'Pengerjaan project company profile untuk Asosiasi Penyelenggara Pemagangan Luar Negeri, yang berlokasi di Jakarta, Indonesia.'
+    desc: 'Pengerjaan project company profile untuk Asosiasi Penyelenggara Pemagangan Luar Negeri, yang berlokasi di Jakarta, Indonesia.',
+    url: 'https://www.ap2ln.org',
+    linkText: 'KUNJUNGI WEBSITE'
   },
   {
     backgroundColor: '#f8b868',
     imgSrc: 'img/portfolio/asta-karya.png',
     title: 'LPK Asta Karya (2020)',
     pos: 'Web Developer / Wordpress',
-    desc: 'Pengerjaan project company profile untuk Lembaga Pelatihan Kerja Asta Karya, yang berlokasi di Jakarta, Indonesia.'
+    desc: 'Pengerjaan project company profile untuk Lembaga Pelatihan Kerja Asta Karya, yang berlokasi di Jakarta, Indonesia.',
+    url: 'https://www.asta-karya.co.id',
+    linkText: 'KUNJUNGI WEBSITE'
   },
   {
     backgroundColor: '#4caf50',
     imgSrc: 'img/portfolio/ssms.png',
     title: 'NPIC Student Score Management System (2017)',
     pos: 'Fullstack Desktop Developer / JavaFX',
-    desc: 'Pengerjaan project tugas akhir untuk entri, mencetak, dan pembukuan data nilai mahasiswa dengan studi kasus di National Polytechnic Institute of Cambodia, Phnom Penh.'
+    desc: 'Pengerjaan project tugas akhir untuk entri, mencetak, dan pembukuan data nilai mahasiswa dengan studi kasus di National Polytechnic Institute of Cambodia, Phnom Penh.',
+    url: 'https://drive.google.com/file/d/1iAGDs4RZojV0N5AhnSU4JYq76YIH8zaI/view?usp=sharing',
+    linkText: 'LIHAT PRESENTASI'
   },
   {
     backgroundColor: '#4fa2c2',
     imgSrc: 'img/portfolio/polciki.png',
     title: 'Sis. POLSEK CIBEUNYING KIDUL (2016)',
     pos: 'Front-end & Back-end Web Developer / PHP',
-    desc: 'Pengerjaan project kerja praktek untuk membuat, mencetak dan menyimpan data STPL dengan studi kasus di Polsek Cibeunying Kidul, Bandung.'
+    desc: 'Pengerjaan project kerja praktek untuk membuat, mencetak dan menyimpan data STPL dengan studi kasus di Polsek Cibeunying Kidul, Bandung.',
+    url: 'https://drive.google.com/file/d/1ZiqO5PiYQXoKyRDld6gTuHyzsSnGua0R/view?usp=sharing',
+    linkText: 'LIHAT SNAPSHOT'
   }
 ];
 
@@ -93,8 +101,21 @@ function createPortfolioDesc(desc) {
   return portfolioPosition;
 }
 
+// Create portfolio link
+function createPortfolioLink(url, linkText, backgroundColor) {
+  const portfolioLink = document.createElement('a');
+
+  portfolioLink.href = url;
+  portfolioLink.target = '_blank';
+  portfolioLink.innerHTML = linkText;
+  portfolioLink.style.backgroundColor = backgroundColor;
+  portfolioLink.classList.add('portfolio-link');
+
+  return portfolioLink;
+}
+
 // Create portfolio
-function createPortfolio(backgroundColor, title, imgSrc, pos, desc) {
+function createPortfolio(backgroundColor, title, imgSrc, pos, desc, url, linkText) {
   const portfolioContainer = createPortfolioContainer(backgroundColor);
   const portfolioWrapper = createPortfolioWrapper();
   const portfolioContent = createPortfolioContent();
@@ -102,10 +123,12 @@ function createPortfolio(backgroundColor, title, imgSrc, pos, desc) {
   const portfolioTitle = createPortfolioTitle(title);
   const portfolioPosition = createPortfolioDesc(pos);
   const portfolioDesc = createPortfolioDesc(desc);
+  const portfolioLink = createPortfolioLink(url, linkText, backgroundColor);
   
   portfolioContent.appendChild(portfolioTitle);
   portfolioContent.appendChild(portfolioPosition);
   portfolioContent.appendChild(portfolioDesc);
+  portfolioContent.appendChild(portfolioLink);
   
   portfolioWrapper.appendChild(portfolioImage);
   portfolioWrapper.appendChild(portfolioContent);
@@ -125,7 +148,9 @@ portfolioData.forEach(element => {
       element.title, 
       element.imgSrc,
       element.pos,
-      element.desc
+      element.desc,
+      element.url,
+      element.linkText
     )
   );
 });
