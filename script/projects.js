@@ -1,5 +1,5 @@
-// Portfolio data
-const portfolioData = [
+// Projects data
+const projectsData = [
   {
     backgroundColor: '#d3dc25',
     imgSrc: 'img/portfolio/ap2ln.png',
@@ -141,7 +141,7 @@ function createPortfolio(backgroundColor, title, imgSrc, pos, desc, url, linkTex
 const portfolioSection = document.getElementsByClassName('portfolio-section')[0];
 
 // Write portfolio
-portfolioData.forEach(element => {
+projectsData.forEach(element => {
   portfolioSection.appendChild(
     createPortfolio(
       element.backgroundColor, 
