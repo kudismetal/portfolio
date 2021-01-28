@@ -22,7 +22,6 @@ body {
 
 .header {
   padding-top: 20px;
-  padding-right: 5%;
   margin-bottom: 5%;
   display: flex;
   flex-direction: column;
@@ -124,16 +123,12 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 5%;
+  flex-direction: column;
+  text-align: center;
 }
 
 .biodata > div:first-child {
   margin-top: 5%;
-}
-
-@media screen and (max-width: 767.98px) {
-  .biodata > div {
-    flex-direction: column;
-  }
 }
 
 .circle-link {
@@ -167,27 +162,14 @@ body {
   margin: 0 auto;
 }
 
-.stack-tech {
-  justify-content: center;
-}
-
-.stack-tech a {
+.stack-help a {
   color: #728ca3;
   text-decoration: none;
+  font-weight: bold;
 }
 
-.stack-tech a:hover {
+.stack-help a:hover {
   text-decoration: underline;
-}
-
-@media screen and (max-width: 767.98px) {
-  .stack-tech {
-    text-align: center;
-  }
-
-  .stack-section {
-    flex-direction: column-reverse !important; 
-  }
 }
 
 .circle-link-small {
