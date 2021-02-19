@@ -76,6 +76,9 @@ function createPortfolioImage(imgSrc, backgroundColor) {
 
   portfolioImage.setAttribute('src', imgSrc);
   portfolioImage.setAttribute('alt', '');
+  if (imgSrc === 'img/portfolio/proj-dompet-web.png') {
+    portfolioImage.setAttribute('height', '100px');
+  }
   portfolioImage.classList.add('fade-in');
 
   portfolioImageContainer.appendChild(portfolioImage);
