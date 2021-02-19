@@ -1,6 +1,15 @@
 // Projects data
 const projectsData = [
   {
+    backgroundColor: '#ffffff',
+    imgSrc: 'img/portfolio/proj-dompet-web.png',
+    title: 'Project Dompet-Web (2020)',
+    pos: 'Web Developer / React.js',
+    desc: 'Pengerjaan personal project untuk tujuan mempelajari lebih lanjut seputar React.js, membuat slicing aplikasi pencatatan keuangan.',
+    url: 'https://proj-dompet-web.herokuapp.com/',
+    linkText: 'KUNJUNGI WEBSITE'
+  },
+  {
     backgroundColor: '#d3dc25',
     imgSrc: 'img/portfolio/ap2ln.png',
     title: 'AP2LN (2020)',
@@ -108,7 +117,13 @@ function createPortfolioLink(url, linkText, backgroundColor) {
   portfolioLink.href = url;
   portfolioLink.target = '_blank';
   portfolioLink.innerHTML = linkText;
-  portfolioLink.style.backgroundColor = backgroundColor;
+  
+  if (url === 'https://proj-dompet-web.herokuapp.com/') {
+    portfolioLink.style.backgroundColor = '#7087f9';
+  } else {
+    portfolioLink.style.backgroundColor = backgroundColor;
+  }
+
   portfolioLink.classList.add('portfolio-link');
 
   return portfolioLink;
