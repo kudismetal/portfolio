@@ -1,9 +1,9 @@
 // Projects data
 const projectsData = [
   {
-    backgroundColor: '#ffffff',
-    imgSrc: 'img/portfolio/proj-dompet-web.png',
-    title: 'Project Dompet-Web (2020)',
+    backgroundColor: '#FDEB71',
+    imgSrc: 'img/portfolio/pundi.png',
+    title: 'Project Dompet-Web [Pundi] (2020)',
     pos: 'Web Developer / React.js',
     desc: 'Pengerjaan personal project untuk tujuan mempelajari lebih lanjut seputar React.js, membuat slicing aplikasi pencatatan keuangan.',
     url: 'https://proj-dompet-web.herokuapp.com/',
@@ -76,9 +76,6 @@ function createPortfolioImage(imgSrc, backgroundColor) {
 
   portfolioImage.setAttribute('src', imgSrc);
   portfolioImage.setAttribute('alt', '');
-  if (imgSrc === 'img/portfolio/proj-dompet-web.png') {
-    portfolioImage.setAttribute('height', '100px');
-  }
   portfolioImage.classList.add('fade-in');
 
   portfolioImageContainer.appendChild(portfolioImage);
@@ -120,12 +117,7 @@ function createPortfolioLink(url, linkText, backgroundColor) {
   portfolioLink.href = url;
   portfolioLink.target = '_blank';
   portfolioLink.innerHTML = linkText;
-  
-  if (url === 'https://proj-dompet-web.herokuapp.com/') {
-    portfolioLink.style.backgroundColor = '#7087f9';
-  } else {
-    portfolioLink.style.backgroundColor = backgroundColor;
-  }
+  portfolioLink.style.backgroundColor = backgroundColor;
 
   portfolioLink.classList.add('portfolio-link');
 
