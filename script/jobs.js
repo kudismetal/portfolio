@@ -10,6 +10,15 @@ const jobsData = [
     linkText: 'KUNJUNGI WEBSITE'
   },
   {
+    backgroundColor: '#161a1f',
+    imgSrc: 'img/jobs/sagara.png',
+    title: 'Sagara (2020 - 2021) Freelance',
+    pos: 'Front-end Web Developer / React.js',
+    desc: 'Perusahaan IT Consultant yang menyediakan talent sebagai layanan IT untuk customer.',
+    url: 'https://www.sagaratechnology.com/en',
+    linkText: 'KUNJUNGI WEBSITE'
+  },
+  {
     backgroundColor: '#ffd83a',
     imgSrc: 'img/jobs/tujuhsembilan.png',
     title: 'Tujuh Sembilan (2018 - 2019)',
