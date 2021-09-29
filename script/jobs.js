@@ -131,17 +131,22 @@ function createPortfolio(backgroundColor, title, imgSrc, pos, desc, url, linkTex
 // Get job section element
 const jobsSection = document.getElementsByClassName('jobs-section')[0];
 
-// Write portfolio
-jobsData.forEach(element => {
-  jobsSection.appendChild(
-    createPortfolio(
-      element.backgroundColor, 
-      element.title, 
-      element.imgSrc,
-      element.pos,
-      element.desc,
-      element.url,
-      element.linkText
-    )
-  );
-});
+setTimeout(() => {
+  // Hide loader
+  const loading = document.getElementsByClassName('loading')[0].remove();
+
+  // Write jobs
+  jobsData.forEach(element => {
+    jobsSection.appendChild(
+      createPortfolio(
+        element.backgroundColor, 
+        element.title, 
+        element.imgSrc,
+        element.pos,
+        element.desc,
+        element.url,
+        element.linkText
+      )
+    );
+  });
+}, 1000);

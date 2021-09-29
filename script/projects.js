@@ -159,17 +159,22 @@ function createPortfolio(backgroundColor, title, imgSrc, pos, desc, url, linkTex
 // Get portfolio section element
 const portfolioSection = document.getElementsByClassName('portfolio-section')[0];
 
-// Write portfolio
-projectsData.forEach(element => {
-  portfolioSection.appendChild(
-    createPortfolio(
-      element.backgroundColor, 
-      element.title, 
-      element.imgSrc,
-      element.pos,
-      element.desc,
-      element.url,
-      element.linkText
-    )
-  );
-});
+setTimeout(() => {
+  // Hide loader
+  const loading = document.getElementsByClassName('loading')[0].remove();
+
+  // Write portfolio
+  projectsData.forEach(element => {
+    portfolioSection.appendChild(
+      createPortfolio(
+        element.backgroundColor, 
+        element.title, 
+        element.imgSrc,
+        element.pos,
+        element.desc,
+        element.url,
+        element.linkText
+      )
+    );
+  });
+}, 1000)

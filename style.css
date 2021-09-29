@@ -310,3 +310,16 @@ footer > p {
   color: white;
   text-decoration: none;
 }
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+}
+
+.loading img {
+  width: 64px;
+  height: 64px;
+}
