@@ -3,7 +3,7 @@ const jobsData = [
   {
     backgroundColor: '#ffac23',
     imgSrc: 'img/jobs/modalrakyat.svg',
-    title: 'Modal Rakyat (2019 - Sekarang)',
+    title: 'Modal Rakyat (2019 - 2022)',
     pos: 'Front-end Web Developer / React.js, Vue.js',
     desc: 'Layanan Peer-to-Peer Lending atau marketplace yang mempertemukan Pendana dengan Peminjam (UMKM).',
     url: 'https://www.modalrakyat.id',
