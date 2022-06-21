@@ -233,8 +233,9 @@ footer > p {
 }
 
 .circle-link-footer {
-  background-color: #8f4f06;
-  color: #e6eff3;
+  /* background-color: #8f4f06; */
+  /* color: #e6eff3; */
+  color: #8f4f06;
   height: 100%;
   width: auto;
   border-radius: 100%;
