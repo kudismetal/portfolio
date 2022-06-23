@@ -1,21 +1,21 @@
 // Jobs data
 const jobsData = [
   {
+    backgroundColor: '#161a1f',
+    imgSrc: 'img/jobs/sagara.png',
+    title: 'Sagara (2020 - 2022) - Freelance',
+    pos: 'Front-end Web Developer / React.js',
+    desc: 'Perusahaan IT Consultant yang menyediakan talent sebagai layanan IT untuk customer.',
+    url: 'https://www.sagaratechnology.com/en',
+    linkText: 'KUNJUNGI WEBSITE'
+  },
+  {
     backgroundColor: '#ffac23',
     imgSrc: 'img/jobs/modalrakyat.svg',
     title: 'Modal Rakyat (2019 - 2022)',
     pos: 'Front-end Web Developer / React.js, Vue.js',
     desc: 'Layanan Peer-to-Peer Lending atau marketplace yang mempertemukan Pendana dengan Peminjam (UMKM).',
     url: 'https://www.modalrakyat.id',
-    linkText: 'KUNJUNGI WEBSITE'
-  },
-  {
-    backgroundColor: '#161a1f',
-    imgSrc: 'img/jobs/sagara.png',
-    title: 'Sagara (2020 - 2022) Freelance',
-    pos: 'Front-end Web Developer / React.js',
-    desc: 'Perusahaan IT Consultant yang menyediakan talent sebagai layanan IT untuk customer.',
-    url: 'https://www.sagaratechnology.com/en',
     linkText: 'KUNJUNGI WEBSITE'
   },
   {
