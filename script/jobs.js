@@ -1,6 +1,15 @@
 // Jobs data
 const jobsData = [
   {
+    backgroundColor: '#ec9846',
+    imgSrc: 'img/jobs/moladin.svg',
+    title: 'Moladin (2022 - Sekarang)',
+    pos: 'Front-end Web Developer / React.js',
+    desc: 'Platform dan Marketplace Jual Beli Mobil Bekas.',
+    url: 'https://moladin.com/',
+    linkText: 'KUNJUNGI WEBSITE'
+  },
+  {
     backgroundColor: '#161a1f',
     imgSrc: 'img/jobs/sagara.png',
     title: 'Sagara (2020 - 2022) - Freelance',
