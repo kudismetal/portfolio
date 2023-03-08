@@ -15,7 +15,7 @@ const projectsData = [
     title: 'Project Dompet-Web [Pundi] (2020)',
     pos: 'Web Developer / React.js',
     desc: 'Pengerjaan personal project untuk tujuan mempelajari lebih lanjut seputar React.js, membuat slicing aplikasi pencatatan keuangan.',
-    url: 'https://proj-dompet-web.herokuapp.com/',
+    url: 'https://github.com/kudismetal/proj-dompet-web',
     linkText: 'KUNJUNGI WEBSITE'
   },
   {
@@ -33,7 +33,7 @@ const projectsData = [
     title: 'Image Face Recognition Apps (2019)',
     pos: 'Fullstack Web Developer / React.js, Node.js',
     desc: 'Pengerjaan project apps face image recognition dari salah satu course web development yang pernah saya ikuti.',
-    url: 'https://image-recognition-brain.herokuapp.com/',
+    url: 'https://github.com/kudismetal/image-recognition-brain',
     linkText: 'KUNJUNGI WEBSITE'
   },
   {
