@@ -16,7 +16,7 @@ const projectsData = [
     pos: 'Web Developer / React.js',
     desc: 'Pengerjaan personal project untuk tujuan mempelajari lebih lanjut seputar React.js, membuat slicing aplikasi pencatatan keuangan.',
     url: 'https://github.com/kudismetal/proj-dompet-web',
-    linkText: 'KUNJUNGI WEBSITE'
+    linkText: 'KUNJUNGI REPOSITORY'
   },
   {
     backgroundColor: '#f8b868',
@@ -34,7 +34,7 @@ const projectsData = [
     pos: 'Fullstack Web Developer / React.js, Node.js',
     desc: 'Pengerjaan project apps face image recognition dari salah satu course web development yang pernah saya ikuti.',
     url: 'https://github.com/kudismetal/image-recognition-brain',
-    linkText: 'KUNJUNGI WEBSITE'
+    linkText: 'KUNJUNGI REPOSITORY'
   },
   {
     backgroundColor: '#4caf50',
