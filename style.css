@@ -36,6 +36,10 @@ body {
   }
 }
 
+.translate {
+  margin-bottom: 5%;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
