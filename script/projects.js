@@ -1,6 +1,15 @@
 // Projects data
 const projectsData = [
   {
+    backgroundColor: '#f8b868',
+    imgSrc: 'img/portfolio/asta-karya.png',
+    title: 'LPK Asta Karya (2024)',
+    pos: 'Web Developer / React.js',
+    desc: 'Pengerjaan project company profile untuk Lembaga Pelatihan Kerja Asta Karya, yang berlokasi di Jakarta, Indonesia.',
+    url: 'https://www.asta-karya.co.id',
+    linkText: 'KUNJUNGI WEBSITE'
+  },
+  {
     backgroundColor: '#d3dc25',
     imgSrc: 'img/portfolio/ap2ln.png',
     title: 'AP2LN (2020)',
@@ -17,15 +26,6 @@ const projectsData = [
     desc: 'Pengerjaan personal project untuk tujuan mempelajari lebih lanjut seputar React.js, membuat slicing aplikasi pencatatan keuangan.',
     url: 'https://github.com/kudismetal/proj-dompet-web',
     linkText: 'KUNJUNGI REPOSITORY'
-  },
-  {
-    backgroundColor: '#f8b868',
-    imgSrc: 'img/portfolio/asta-karya.png',
-    title: 'LPK Asta Karya (2020)',
-    pos: 'Web Developer / Wordpress',
-    desc: 'Pengerjaan project company profile untuk Lembaga Pelatihan Kerja Asta Karya, yang berlokasi di Jakarta, Indonesia.',
-    url: 'https://www.asta-karya.co.id',
-    linkText: 'KUNJUNGI WEBSITE'
   },
   {
     backgroundColor: '#61dafb',
