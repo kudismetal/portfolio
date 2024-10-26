@@ -328,3 +328,26 @@ footer > p {
   width: 64px;
   height: 64px;
 }
+
+.whatsapp-container {
+  height: 54px;
+  width: 54px;
+  background-color: #f3e4c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  font-size: 36px;
+  box-shadow: rgba(19, 15, 235, 0.1) 1px 2px 20px;
+}
+
+.whatsapp-container p {
+  margin-right: 0.5rem;
+}
+
+.whatsapp-link {
+  text-decoration: none;
+  color: #8f4f06;
+}

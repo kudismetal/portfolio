@@ -3,7 +3,16 @@ const jobsData = [
   {
     backgroundColor: '#ec9846',
     imgSrc: 'img/jobs/moladin.svg',
-    title: 'Moladin (2022 - Sekarang)',
+    title: 'Moladin (2024 - Sekarang)',
+    pos: 'Fullstack Web Developer / React.js, Node.js',
+    desc: 'Platform dan Marketplace Jual Beli Mobil Bekas.',
+    url: 'https://moladin.com/',
+    linkText: 'KUNJUNGI WEBSITE'
+  },
+  {
+    backgroundColor: '#ec9846',
+    imgSrc: 'img/jobs/moladin.svg',
+    title: 'Moladin (2022 - 2024)',
     pos: 'Front-end Web Developer / React.js',
     desc: 'Platform dan Marketplace Jual Beli Mobil Bekas.',
     url: 'https://moladin.com/',
