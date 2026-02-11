@@ -5,45 +5,45 @@ const jobsData = [
     imgSrc: 'img/jobs/moladin.svg',
     title: 'Moladin (2024 - Sekarang)',
     pos: 'Fullstack Web Developer / React.js, Node.js',
-    desc: 'Platform dan Marketplace Jual Beli Mobil Bekas.',
+    desc: 'Platform and Marketplace for Buying and Selling Used Cars.',
     url: 'https://moladin.com/',
-    linkText: 'KUNJUNGI WEBSITE'
+    linkText: 'VISIT WEBSITE'
   },
   {
     backgroundColor: '#ec9846',
     imgSrc: 'img/jobs/moladin.svg',
     title: 'Moladin (2022 - 2024)',
     pos: 'Front-end Web Developer / React.js',
-    desc: 'Platform dan Marketplace Jual Beli Mobil Bekas.',
+    desc: 'Platform and Marketplace for Buying and Selling Used Cars.',
     url: 'https://moladin.com/',
-    linkText: 'KUNJUNGI WEBSITE'
+    linkText: 'VISIT WEBSITE'
   },
   {
     backgroundColor: '#161a1f',
     imgSrc: 'img/jobs/sagara.png',
     title: 'Sagara (2020 - 2022) - Freelance',
     pos: 'Front-end Web Developer / React.js',
-    desc: 'Perusahaan IT Consultant yang menyediakan talent sebagai layanan IT untuk customer.',
+    desc: 'IT Consultant company providing talent as IT services for customers.',
     url: 'https://www.sagaratechnology.com/en',
-    linkText: 'KUNJUNGI WEBSITE'
+    linkText: 'VISIT WEBSITE'
   },
   {
     backgroundColor: '#ffac23',
     imgSrc: 'img/jobs/modalrakyat.svg',
     title: 'Modal Rakyat (2019 - 2022)',
     pos: 'Front-end Web Developer / React.js, Vue.js',
-    desc: 'Layanan Peer-to-Peer Lending atau marketplace yang mempertemukan Pendana dengan Peminjam (UMKM).',
+    desc: 'Peer-to-Peer Lending service or marketplace that connects Funders with Borrowers (MSMEs).',
     url: 'https://www.modalrakyat.id',
-    linkText: 'KUNJUNGI WEBSITE'
+    linkText: 'VISIT WEBSITE'
   },
   {
     backgroundColor: '#ffd83a',
     imgSrc: 'img/jobs/tujuhsembilan.png',
     title: 'Tujuh Sembilan (2018 - 2019)',
     pos: 'Front-end & Back-end Web Developer / Angular, Springboot',
-    desc: 'Perusahaan IT Consultant yang menyediakan talent sebagai layanan IT untuk customer.',
+    desc: 'IT Consultant company providing talent as IT services for customers.',
     url: 'https://www.tujuhsembilan.com',
-    linkText: 'KUNJUNGI WEBSITE'
+    linkText: 'VISIT WEBSITE'
   }
 ];
 

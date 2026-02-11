@@ -5,54 +5,54 @@ const projectsData = [
     imgSrc: 'img/portfolio/asta-karya.png',
     title: 'LPK Asta Karya (2024)',
     pos: 'Web Developer / React.js',
-    desc: 'Pengerjaan project company profile untuk Lembaga Pelatihan Kerja Asta Karya, yang berlokasi di Jakarta, Indonesia.',
+    desc: 'Worked on project company profile for Lembaga Pelatihan Kerja Asta Karya, located in Jakarta, Indonesia.',
     url: 'https://www.asta-karya.co.id',
-    linkText: 'KUNJUNGI WEBSITE'
+    linkText: 'VISIT WEBSITE'
   },
   {
     backgroundColor: '#d3dc25',
     imgSrc: 'img/portfolio/ap2ln.png',
     title: 'AP2LN (2020)',
     pos: 'Web Developer / Wordpress',
-    desc: 'Pengerjaan project company profile untuk Asosiasi Penyelenggara Pemagangan Luar Negeri, yang berlokasi di Jakarta, Indonesia.',
+    desc: 'Worked on project company profile for Asosiasi Penyelenggara Pemagangan Luar Negeri, located in Jakarta, Indonesia.',
     url: 'https://www.ap2ln.org',
-    linkText: 'KUNJUNGI WEBSITE'
+    linkText: 'VISIT WEBSITE'
   },
   {
     backgroundColor: '#FDEB71',
     imgSrc: 'img/portfolio/pundi.png',
     title: 'Project Dompet-Web [Pundi] (2020)',
     pos: 'Web Developer / React.js',
-    desc: 'Pengerjaan personal project untuk tujuan mempelajari lebih lanjut seputar React.js, membuat slicing aplikasi pencatatan keuangan.',
+    desc: 'Worked on personal project to further learn about React.js, creating a slicing of a financial recording application.',
     url: 'https://github.com/kudismetal/proj-dompet-web',
-    linkText: 'KUNJUNGI REPOSITORY'
+    linkText: 'VISIT REPOSITORY'
   },
   {
     backgroundColor: '#61dafb',
     imgSrc: 'img/portfolio/image-recognition-brain.png',
     title: 'Image Face Recognition Apps (2019)',
     pos: 'Fullstack Web Developer / React.js, Node.js',
-    desc: 'Pengerjaan project apps face image recognition dari salah satu course web development yang pernah saya ikuti.',
+    desc: 'Worked on face image recognition app project from one of the web development courses I took.',
     url: 'https://github.com/kudismetal/image-recognition-brain',
-    linkText: 'KUNJUNGI REPOSITORY'
+    linkText: 'VISIT REPOSITORY'
   },
   {
     backgroundColor: '#4caf50',
     imgSrc: 'img/portfolio/ssms.png',
     title: 'NPIC Student Score Management System (2017)',
     pos: 'Fullstack Desktop Developer / JavaFX',
-    desc: 'Pengerjaan project tugas akhir untuk entri, mencetak, dan pembukuan data nilai mahasiswa dengan studi kasus di National Polytechnic Institute of Cambodia, Phnom Penh.',
+    desc: 'Worked on final project for entry, printing, and bookkeeping of student score data with case study at National Polytechnic Institute of Cambodia, Phnom Penh.',
     url: 'https://drive.google.com/file/d/1iAGDs4RZojV0N5AhnSU4JYq76YIH8zaI/view?usp=sharing',
-    linkText: 'LIHAT SNAPSHOT'
+    linkText: 'VIEW SNAPSHOT'
   },
   {
     backgroundColor: '#4fa2c2',
     imgSrc: 'img/portfolio/polciki.png',
     title: 'Sis. POLSEK CIBEUNYING KIDUL (2016)',
     pos: 'Front-end & Back-end Web Developer / PHP',
-    desc: 'Pengerjaan project kerja praktek untuk membuat, mencetak dan menyimpan data STPL dengan studi kasus di Polsek Cibeunying Kidul, Bandung.',
+    desc: 'Worked on internship project to create, print, and store STPL data with case study at Polsek Cibeunying Kidul, Bandung.',
     url: 'https://drive.google.com/file/d/1ZiqO5PiYQXoKyRDld6gTuHyzsSnGua0R/view?usp=sharing',
-    linkText: 'LIHAT PRESENTASI'
+    linkText: 'VIEW PRESENTATION'
   }
 ];
 
