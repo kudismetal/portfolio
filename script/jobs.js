@@ -3,7 +3,7 @@ const jobsData = [
   {
     backgroundColor: '#ec9846',
     imgSrc: 'img/jobs/moladin.svg',
-    title: 'Moladin (2024 - Sekarang)',
+    title: 'Moladin (2024 - 2026)',
     pos: 'Fullstack Web Developer / React.js, Node.js',
     desc: 'Platform and Marketplace for Buying and Selling Used Cars.',
     url: 'https://moladin.com/',
